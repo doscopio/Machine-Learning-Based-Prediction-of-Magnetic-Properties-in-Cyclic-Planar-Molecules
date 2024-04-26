@@ -1,0 +1,76 @@
+<style>.styled-table{border-collapse:collapse;margin:25px 0;font-size:0.9em;font-family:sans-serif;min-width:400px;box-shadow:0 0 20px rgba(0,0,0,0.15);border-radius:10px 10px 0 0;overflow:hidden;}th{background-color:#009879;color:#ffffff;text-align:left;font-weight:bold;}th,td{padding:12px 15px;}tr{border-bottom:1px solid #dddddd;}tr:nth-of-type(even){background-color:#f3f3f3;}.styled-table th,.styled-table td{padding:12px 15px;text-align:left;}</style><table border="1" class="dataframe styled-table">
+  <thead style="text-align:center;">
+    <tr style="text-align: right;">
+      <th style="text-align:center; background-color:black; color:white;">Column</th>
+      <th style="text-align:center; background-color:black; color:white;">Data Type</th>
+      <th style="text-align:center; background-color:black; color:white;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="background-color:black; color:white;">Molecule</td>
+      <td style="background-color:black; color:white;">object</td>
+      <td style="background-color:black; color:white;">This column denotes the name or identifier of each molecule within the dataset.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">State</td>
+      <td style="background-color:black; color:white;">int64</td>
+      <td style="background-color:black; color:white;">The State column distinguishes between different electronic states of the molecules. A value of 0 corresponds to the singlet (S0) spin state, while a value of 1 indicates the triplet (T1) electronic state.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">TCC</td>
+      <td style="background-color:black; color:white;">int64</td>
+      <td style="background-color:black; color:white;">This column represents the Type of Cyclic Compound (TCC). A value of 1 signifies a monocyclic compound, whereas a value of 0 indicates a polycyclic compound.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">x1</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">These columns contain the coordinates of the 'dummy atom' positioned at the center of each cyclic planar molecule.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">y1</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">These columns contain the coordinates of the 'dummy atom' positioned at the center of each cyclic planar molecule.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">z1</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">These columns contain the coordinates of the 'dummy atom' positioned at the center of each cyclic planar molecule.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">x2</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">These columns contain the coordinates of the additional 'dummy atom', where the z-axis value has been incremented by one unit.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">y2</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">These columns contain the coordinates of the additional 'dummy atom', where the z-axis value has been incremented by one unit.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">z2</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">These columns contain the coordinates of the additional 'dummy atom', where the z-axis value has been incremented by one unit.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">NICS(0)</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">This section provides the magnetic propertie of NICS(0) of each molecule. This propertie is crucial for understanding the aromaticity and electronic structure of the molecules, since they are one of the objectives to be predicted by the model.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">NICS_zz(0)</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">This section provides the magnetic propertie of NICS_zz(0) of each molecule. This propertie is crucial for understanding the aromaticity and electronic structure of the molecules, since they are one of the objectives to be predicted by the model.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">NICS(1)</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">This section provides the magnetic propertie of NICS(1) of each molecule. This propertie is crucial for understanding the aromaticity and electronic structure of the molecules, since they are one of the objectives to be predicted by the model.</td>
+    </tr>
+    <tr>
+      <td style="background-color:black; color:white;">NICS_zz(1)</td>
+      <td style="background-color:black; color:white;">float64</td>
+      <td style="background-color:black; color:white;">This section provides the magnetic propertie of NICS_zz(1) of each molecule. This propertie is crucial for understanding the aromaticity and electronic structure of the molecules, since they are one of the objectives to be predicted by the model.</td>
+    </tr>
+  </tbody>
+</table>
